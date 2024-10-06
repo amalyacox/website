@@ -20,6 +20,8 @@ col1, col2, col3 = st.columns([1.3, 0.2, 1])
 with col1: 
     st.markdown(info['brief'])
 
+with col3: 
+    st.image("static/AmalyaJohnsonHeadshot2024.png")
 
 col4, col5 = st.columns([0.1,3])
 
